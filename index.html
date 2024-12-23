@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+    <div>
+  
+            <div class="container">
+                <div>
+                    <h3 class="mainTitle">HOME</h3>
+                    <h3 id="numberScreenHome">0</h3> <!-- this is how I control the JS -->
+                        <button class="buttonClass" onclick="plusOneHome()">+1</button>
+                        <button class="buttonClass" onclick="plusTwoHome()">+2</button>
+                        <button class="buttonClass" onclick="plusThreeHome()">+3</button>
+                </div> 
+                <div>
+                    <h3 class="mainTitle">GUEST</h3>
+                    <h3 id="numberScreenGuest">0</h3>
+                    
+                        <button class="buttonClass" onclick="minusOneGuest()">+1</button>
+                        <button class="buttonClass" onclick="minusTwoGuest()">+2</button>
+                        <button class="buttonClass" onclick="minusThreeGuest()">+3</button>       
+                </div>
+            
+                </div>
+                    <div class="newGameContainer">
+                    <button id="newGame" onclick="newGame()">New Game</button> 
+                    </div>     
+                </div> 
+        <script src="index.js"></script>
+    </body>
+</html>

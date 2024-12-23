@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: coloumn;
+}
+
+#numberScreenHome, #numberScreenGuest {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    border-radius: 4px;
+    padding: 8px;
+    padding-left: 55px ;
+    padding-right: 55px ;
+    padding: auto;
+    font-size: 73px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+.buttonClass {
+    background: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.mainTitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px ;
+    margin-bottom: 0px;
+}
+#newGame {  
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 15px
+}
+.newGameContainer {
+    display: ;
+}
